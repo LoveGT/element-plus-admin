@@ -3,7 +3,9 @@ defineOptions({ name: 'App' });
 </script>
 
 <template>
-  <HelloWord />
+  <div class="h-120px w-120px text-center text-pink-500">
+    <SvgIcon local-icon="copy" class="text-24px text-primary" />
+  </div>
   <div class="text-primary">app pages</div>
 </template>
 
